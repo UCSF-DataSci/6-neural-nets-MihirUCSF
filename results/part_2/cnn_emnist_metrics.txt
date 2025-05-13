@@ -1,0 +1,6 @@
+model: cnn_emnist_classifier
+accuracy: 0.9312162399291992
+precision: 0.7142472980461495
+recall: 0.70895
+f1_score: 0.7106951319232411
+----

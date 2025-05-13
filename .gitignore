@@ -1,7 +1,40 @@
-a-wearable-exam-stress-dataset-for-predicting-cognitive-performance-in-real-world-settings-1.0.0/
+# Development files
 demo/
-lecture_04.md
-data/
 demo*
+lecture_04.md
 refs/
-results/
+
+# Data directories - keep only raw data out of repo
+data/
+
+# Keep results directory (contains plots)
+# results/  
+
+# Keep models directory
+# models/  
+
+# Python/Jupyter environment
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+.jupyter/
+.python_history
+.pytest_cache/
+.coverage
+htmlcov/
+venv/
+env/
+ENV/
+.venv/
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS specific files
+.DS_Store
+Thumbs.db
